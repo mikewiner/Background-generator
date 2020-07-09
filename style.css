@@ -1,0 +1,62 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    /*top: 15%;*/
+	/*background: linear-gradient(to right, grey, green); /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+
+.random {
+    
+    color: white;
+    background-color: rgb(79, 80, 84);
+    border-radius: 14px;
+    border: 1px solid;
+    border-color: black;
+    font: 600 1.5em 'Raleway', sans-serif;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    /*white-space: nowrap;*/
+}
+
+.random:hover {
+    
+    background-color: rgb(65, 158, 219);
+}
+
+#center {
+    
+    padding: 2rem;
+    border: 3px solid;
+    border-radius: 3px;
+    box-shadow: 5px 8px 30px white;
+    position: absolute; /* or absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
